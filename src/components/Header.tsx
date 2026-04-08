@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container-wide">
         <nav className="flex items-center justify-between h-20">
           <a href="#" className="flex items-center gap-2">
-            <img src={logo} alt="Tenax Systems" style={{ height: '40px', width: 'auto', display: 'block' }} />
+            <img src={logo} alt="Tenax Systems" className="h-8 w-auto md:h-10 lg:h-12" />
           </a>
 
           <div className="hidden md:flex items-center gap-8">
