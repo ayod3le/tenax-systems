@@ -32,7 +32,7 @@ const Header = () => {
           </div>
 
           <Button variant="default" size="sm" asChild>
-            <a href="#contact">Book Consultation</a>
+            <a href="https://zbooking.eu/P6buU" target="_blank" rel="noopener noreferrer">Book Consultation</a>
           </Button>
         </nav>
       </div>
