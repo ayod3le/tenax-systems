@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Mail } from "lucide-react";
+import { ArrowRight, Calendar } from "lucide-react";
 const Contact = () => {
   return <section id="contact" className="section-spacing">
       <div className="container-narrow text-center">
@@ -13,8 +13,8 @@ const Contact = () => {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button size="lg" asChild>
-            <a href="mailto:hello@tenaxsystems.ai">
-              <Mail className="mr-2 h-4 w-4" />
+            <a href="https://zbooking.eu/P6buU" target="_blank" rel="noopener noreferrer">
+              <Calendar className="mr-2 h-4 w-4" />
               Book a consultation
               <ArrowRight className="ml-2 h-4 w-4" />
             </a>
